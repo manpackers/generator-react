@@ -1,0 +1,56 @@
+{
+  "name": "@manpacker/generator-react",
+  "version": "0.0.0",
+  "description": "Generator react frontend build project",
+  "bin": {
+    "manpacker-react": "./bin/manpacker-react"
+  },
+  "scripts": {
+    "test:server": "node ./bin/manpacker-react server --ic ./test/config/manpacker.ic.js --config ./test/manpacker.config.js",
+    "test:build": "node ./bin/manpacker-react build --ic ./test/config/manpacker.ic.js --config ./test/manpacker.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manpackers/generator-react.git"
+  },
+  "keywords": [
+    "react",
+    "manpacker",
+    "generator",
+    "build",
+    "frontend"
+  ],
+  "author": {
+    "name": "winterfete"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manpackers/generator-react/issues"
+  },
+  "homepage": "https://github.com/manpackers/generator-react#readme",
+  "dependencies": {
+    "@manpacker/generator": "^1.5.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-preset-manpacker-react": "^1.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-manpacker-react": "^1.1.1",
+    "eslint-config-manpacker-typescript": "^1.2.0",
+    "eslint-loader": "^2.1.2",
+    "ts-loader": "^6.0.0",
+    "typescript": "^3.4.5"
+  },
+  "babel": {
+    "presets": [
+      "manpacker-react"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "manpacker-typescript",
+      "manpacker-react"
+    ]
+  }
+}
