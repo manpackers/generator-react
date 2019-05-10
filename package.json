@@ -1,6 +1,6 @@
 {
   "name": "@manpacker/generator-react",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generator react frontend build project",
   "bin": {
     "manpacker-react": "./bin/manpacker-react"
