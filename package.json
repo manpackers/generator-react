@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/manpackers/generator-react#readme",
   "dependencies": {
-    "@manpacker/generator": "^1.5.0",
+    "@manpacker/generator": "^1.6.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
